@@ -13,7 +13,7 @@ def read_action_table():
 
 def read_prod():
     prod = {}
-    with open('result.csv', 'r') as file:
+    with open('productions.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             symbol = row[0]
